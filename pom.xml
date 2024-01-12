@@ -11,7 +11,7 @@
     <groupId>com.sxqibo.spring</groupId>
     <artifactId>spring</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>001-spring-boot</name>
+    <name>002-spring-actuator</name>
     <description>001-spring-boot</description>
     <properties>
         <java.version>1.8</java.version>
@@ -28,6 +28,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
     </dependencies>
 
